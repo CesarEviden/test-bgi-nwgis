@@ -1,0 +1,492 @@
+{
+	"info": {
+		"_postman_id": "c258ec37-ecc5-4feb-972f-3cd335898de9",
+		"name": "Niugis local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25244824",
+		"_collection_link": "https://universal-eclipse-108046.postman.co/workspace/Brisa~64c000b6-c575-46df-8847-f426e606c95a/collection/25244824-c258ec37-ecc5-4feb-972f-3cd335898de9?action=share&source=collection_link&creator=25244824"
+	},
+	"item": [
+		{
+			"name": "L Services Areas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Service Areas  By Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/services/3efaeeb4-7949-48c6-b56a-a3d78bbb51b9?f=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"services",
+						"3efaeeb4-7949-48c6-b56a-a3d78bbb51b9"
+					],
+					"query": [
+						{
+							"key": "f",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Highway ToBe",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/highways",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"highways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Highway ToBe By Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/highways/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"highways",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L BCR top zones",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/highways",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"highways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L BCR top zones By Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/bcr/a5ff9484-3913-4a3a-a7e0-28338a5e5632",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"bcr",
+						"a5ff9484-3913-4a3a-a7e0-28338a5e5632"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Nodes",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/nodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"nodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Nodes Modeling",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/nodes/modeling",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"nodes",
+						"modeling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Pedestrian Zones ToBe",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/pedestrians",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"pedestrians"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Pedestrian Zones By Id ToBe",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/pedestrians/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"pedestrians",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Underlining ById",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/underlines/123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"underlines",
+						"123456"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Underlining",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/underlines",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"underlines"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "L Nodes top zones By Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "#B.smart@24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "bsmart",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/nodes/123456",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"nodes",
+						"123456"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
